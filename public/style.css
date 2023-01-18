@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(46, 45, 45);
+}
+
+h1{
+    font-size: 7vw;
+    color: gray;
+}
+
+h1.result{
+    font-size: 30px;
+}
+
+input{
+    width: 70vw;
+    border: none;
+    background-color: #d3d3d3;
+    padding: 0.5em;
+    padding-left: 1em;
+    outline: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.parent{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.parent-r{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: gray;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hlink{
+    color: gray;
+}
+
+.desc{
+    color: white;
+}

@@ -1,0 +1,22 @@
+<%- include ('./partials/header') %><br>
+        <div class="parent-r">
+            <div class="child-r">
+                <h1 class="result">Francisco</h1>
+                <form method="get" action="/results">
+                    <input 
+                        name="search" 
+                        type="text"
+                        class="result"
+                        placeholder="search Francisco or enter a URL" 
+                        value="<%= query %>"
+                        required
+                    >
+                </form>
+            </div>
+        </div><br>
+        <% data.forEach((result) => { %>
+            <h4><a href="<%= result.hlink %>"><%= result.htext %></a></h4>
+            <p class="hlink"><%= result.hlink %></p>
+            <p class="desc"><%= result.desc %></p>
+        <% }) %>
+<%- include ('./partials/footer') %>
